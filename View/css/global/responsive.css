@@ -1,0 +1,34 @@
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="password"],
+    select,
+    button {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+    footer{
+        margin: auto;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 0.8rem;
+    }
+    footer{
+        margin: auto;
+        margin-top: 2%;
+    }
+}

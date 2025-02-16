@@ -1,0 +1,136 @@
+
+ .search-bar-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem; 
+}
+
+.search-bar select,
+.search-bar input[type="text"],
+.search-bar button {
+    flex: 1;
+    min-width: 120px;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-bar button {
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+
+
+.big-carousel-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.big-carousel-container .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(76, 175, 80, 0.8);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.big-carousel-container .carousel-button:hover {
+    background-color: rgba(69, 160, 73, 0.9);
+}
+
+
+.big-carousel-container .carousel-button.prev {
+    left: 10px;
+}
+
+.big-carousel-container .carousel-button.next {
+    right: 10px;
+}
+
+.big-carousel-container .carousel-item {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    min-height: 250px; 
+    background: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.big-carousel-container .carousel-item.active {
+    display: block;
+    opacity: 1;
+}
+
+.container__title{
+    display: flex;
+}
+
+.slide-info p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-contact p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-contact img{
+    position: absolute;
+    right: 5%;
+}
+.name-contact img:hover{
+    border-radius: 3%;
+    background-color: gray;
+}
+
+
+/* default custom bar at the bottom */
+:root {
+    --swiper-pagination-bottom: auto;
+    --swiper-pagination-top: auto;
+}
+

@@ -1,0 +1,109 @@
+
+
+.chat-container__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-chat__block {
+    padding: 2%;
+    background-color: white;
+    height: 30pc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 2%;
+}
+.menu-chat__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__navbar {
+    width: 100px;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    padding: 2%;
+    
+}
+
+.menu__navbar:hover{
+    color: beige;
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    text-align: center;
+}
+
+.container {
+    flex: 1;
+    margin-top: 2%;
+    font-size: smaller;
+}
+
+
+.contact-email-item {
+    list-style: none;
+    background-color: aquamarine;
+    border-radius: 3%;
+    padding: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.contact-email-item:hover {
+    background-color: aqua;
+}
+
+.header-msg {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.message-sent,.message-deleted {
+    width: 90%;
+    background-color: darkgrey;
+    border-radius: 5%;
+    padding: 2%;
+    color: whitesmoke;
+    margin: 10px auto;
+}
+
+.message-received {
+    width: 90%;
+    background-color: green;
+    border-radius: 5%;
+    padding: 2%;
+    color: whitesmoke;
+    margin: 10px auto;
+}
+
+.body-msg{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.delete-btn{
+    width: 80px;
+    background-color: red;
+}
+
+.delete-btn:hover{
+    width: 80px;
+    background-color: #cc0000;
+}

@@ -1,0 +1,102 @@
+
+h2{
+    text-align: center;
+}
+
+.account-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #cc0000;
+}
+
+.edit-btn{
+    background-color: #FF4F00;
+}
+.edit-btn:hover{
+    background-color: #cd4303;
+}
+
+
+.cancel-btn:hover {
+    background-color: red;
+}
+
+
+.profile-info p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logout_form__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.change-preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#browse-img {
+    width: 70%;
+}
+#browse-img button {
+    background-color: #cc0000;
+}
+
+#delete-img {
+    background-color: violet;
+}
+#delete-img:hover {
+    background-color: purple;
+
+}
+
+/* profile picture */
+.pp_user {
+    width: 150px;
+    border-radius: 30%;
+}
+.pp_user:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.wrong-editInfos__container {
+    background-color: violet;
+    border-radius: 5%;
+    border: 1px solid;
+    padding: 2%;
+}
+.wrong-editInfos__container h3 {
+    color: rgb(225, 8, 8);
+}
+.wrong-editInfos__container p{
+    text-align: center;
+
+}

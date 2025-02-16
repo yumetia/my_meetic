@@ -1,0 +1,14 @@
+footer {
+    margin-top: 2%;
+    width: 100vw;
+}
+.footer__container{
+    background-color: aliceblue;
+    padding: 1%;
+    border: 1px solid;
+}
+
+.footer__container p{
+    color: black;
+    text-align: center;
+}
