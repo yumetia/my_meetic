@@ -3,11 +3,12 @@ require_once "bdd.php";
 
 class GenericModel {
     
-    public function __construct(){
-        $database = new MyDatabase();
-        $this->database = $database->connect();
-    }
+    protected $database;
 
+    public function __construct(){
+        $this->database = (new MyDatabase())->connect();
+    }
+    
     public function showTables(){
         $request = "SHOW TABLES";
         $stmt = $this->database->prepare($request);
